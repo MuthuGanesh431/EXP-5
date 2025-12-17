@@ -7,15 +7,22 @@ AIM
 APPARATUS:
 
 S.No	Name of the Apparatus	Range	Quantity
+
 1	Zener Diode (IN 4735A)		1
+
 2	Resistors	1KΩ, 10KΩ	1
+
 3	Regulated Power Supply	(0-30)V DC	1
+
 4	Bread Board		1
+
 5	Digital Ammeter	(0-200)mA	1
+
 6	Digital Voltmeter	(0-20)V DC	1
+
 7	Connecting Wires	As Required	
 
-CIRCUIT DIAGRAM:
+
 THEORY:
 	
 A zener diode is heavily doped p-n junction diode, specially made to operate in the break down region. A p-n junction diode normally does not conduct when reverse biased. But if the reverse bias is increased, at a particular voltage it starts conducting heavily. This voltage is called Break down Voltage. High current through the diode can permanently damage the device To avoid high current, we connect a resistor in series with zener diode. Once the diode starts conducting it maintains almost constant voltage across the terminals what ever may be the current through it, i.e., it has very low dynamic resistance. It is used in voltage regulators.
@@ -23,15 +30,47 @@ A zener diode is heavily doped p-n junction diode, specially made to operate in 
 PROCEDURE:
 
 1. Connections are made as per the circuit diagram.
+
 2. The Regulated power supply voltage is increased in steps.
+
 3. The voltage across the diode (Vz.) remains almost constant although the current through the diode increases. This voltage serves as reference voltage.
+
 4. The zener current (lz), and the zener voltage (Vz.) are observed and then noted in the tabular form.
-4. A graph is plotted between zener current (Iz) on y-axis and zener voltage (Vz) on x-axis.
+
+5. A graph is plotted between zener current (Iz) on y-axis and zener voltage (Vz) on x-axis.
+
 OBSERVATIONS:
 
-REGULATION CHARACTERISTICS:
+LINE REGULATION:
 
-V-I & REGULATION CHARACTERISTICS:
+| S.No | Input Voltage (V) | Output Voltage (V) |
+|------|--------------------|---------------------|
+| 1    | 12.0               | 5.14                |
+| 2    | 13.0               | 5.16                |
+| 3    | 14.0               | 5.17                |
+| 4    | 15.0               | 5.17                |
+| 5    | 16.0               | 5.18                |
+| 6    | 17.0               | 5.19                |
+
+LOAD REGULATION:
+
+| S.No | Load Resistance(&Omega;) | Output Voltage (V) |
+|------|--------------------|---------------------|
+| 1    | 100                | 5.19                |
+| 2    | 200                | 5.20                |
+| 3    | 300                | 5.20                |
+| 4    | 400                | 5.20                |
+| 5    | 500                | 5.20                |
+| 6    | 600                | 5.21                |
+
+CIRCUIT DIAGRAM:
+LINE REGULATION:
+
+![WhatsApp Image 2025-12-17 at 9 24 41 AM](https://github.com/user-attachments/assets/6471da2b-aa0f-4ba6-a6b9-bcdb532e47c6)
+
+LOAD REGULATION:
+
+![WhatsApp Image 2025-12-17 at 9 24 55 AM](https://github.com/user-attachments/assets/b83aac18-33cd-4be6-820e-d2cb4bbc173a)
 
 PRECAUTIONS:
 
